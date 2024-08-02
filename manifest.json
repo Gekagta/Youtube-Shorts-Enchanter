@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Shorts Enchanted",
+    "version": "0.0.1",
+    "description": "Some useful function for youtube shorts",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/shorts/*"],
+        "js": ["main.js"]
+      }
+    ]
+  }
+  
