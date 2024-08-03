@@ -8,3 +8,4 @@ styles.textContent = `
         opacity: 1;
     }
 `
+document.head.appendChild(styles)
